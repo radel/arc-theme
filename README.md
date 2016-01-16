@@ -1,20 +1,20 @@
-# Arc Theme
+# MaterialArc Theme
 
-Arc is a flat theme with transparent elements for GTK 3, GTK 2 and Gnome-Shell which supports GTK 3 and GTK 2 based desktop environments like Gnome, Unity, Budgie, Pantheon, XFCE, Mate, etc.
+MaterialArc is a flat theme with transparent elements for GTK 3, GTK 2 and Gnome-Shell which supports GTK 3 and GTK 2 based desktop environments like Gnome, Unity, Budgie, Pantheon, XFCE, Mate, etc.
 
-###Arc is available in three variants 
+###MaterialArc is available in three variants 
 
-#####Arc
+#####MaterialArc
 
-![A screenshot of the Arc theme](http://i.imgur.com/Ph5ObOa.png)
+![A screenshot of the MaterialArc theme](http://i.imgur.com/Ph5ObOa.png)
 
-#####Arc-Darker
+#####MaterialArc-Darker
 
-![A screenshot of the Arc-Darker theme](http://i.imgur.com/NC6dqyl.png)
+![A screenshot of the MaterialArc-Darker theme](http://i.imgur.com/NC6dqyl.png)
 
-#####Arc-Dark
+#####MaterialArc-Dark
 
-![A screenshot of the Arc-Dark theme](http://i.imgur.com/5AGlCnA.png)
+![A screenshot of the MaterialArc-Dark theme](http://i.imgur.com/5AGlCnA.png)
 
 
 ### Requirements
@@ -22,7 +22,7 @@ Arc is a flat theme with transparent elements for GTK 3, GTK 2 and Gnome-Shell w
 * Gnome/GTK 3.14, 3.16 or 3.18
 * The `gnome-themes-standard` package
 * The murrine engine. This has different names depending on your distro.
-  * `gtk-engine-murrine` (Arch Linux)
+  * `gtk-engine-murrine` (MaterialArch Linux)
   * `gtk2-engines-murrine` (Debian, Ubuntu, elementary OS)
   * `gtk-murrine-engine` (Fedora)
   * `gtk2-engine-murrine` (openSUSE)
@@ -30,7 +30,7 @@ Arc is a flat theme with transparent elements for GTK 3, GTK 2 and Gnome-Shell w
 
 Main distributions that meet these requirements are
 
-* Arch Linux and Arch Linux based distros
+* MaterialArch Linux and MaterialArch Linux based distros
 * Ubuntu 15.04 and 15.10 (**Ubuntu 14.04 and 14.10 are not supported**)
 * elementary OS Freya
 * Debian Jessie, Testing or Unstable
@@ -46,27 +46,27 @@ If your distribution isn't listed, please check the requirements yourself.
 
 **Important:** Remove all older versions of the theme from your system before you proceed any further.
 
-    sudo rm -rf /usr/share/themes/{Arc,Arc-Darker,Arc-Dark}
-    rm -rf ~/.local/share/themes/{Arc,Arc-Darker,Arc-Dark}
-    rm -rf ~/.themes/{Arc,Arc-Darker,Arc-Dark}
+    sudo rm -rf /usr/share/themes/{MaterialArc,MaterialArc-Darker,MaterialArc-Dark}
+    rm -rf ~/.local/share/themes/{MaterialArc,MaterialArc-Darker,MaterialArc-Dark}
+    rm -rf ~/.themes/{MaterialArc,MaterialArc-Darker,MaterialArc-Dark}
 
 #### Packages
 
 Prebuilt packages for Ubuntu, Debian, Fedora and openSUSE are available at  
-http://software.opensuse.org/download.html?project=home%3AHorst3180&package=arc-theme  
+http://software.opensuse.org/download.html?project=home%3AHorst3180&package=MaterialArc-theme  
 
 A non-transparent version of the theme is available here  
-http://software.opensuse.org/download.html?project=home%3AHorst3180&package=arc-theme-solid  
+http://software.opensuse.org/download.html?project=home%3AHorst3180&package=MaterialArc-theme-solid  
 
 **Note:** elementary OS Freya users can install the package for Ubuntu 15.04
 
 --
 
-Arch Linux users can install the theme from the AUR
+MaterialArch Linux users can install the theme from the AUR
 
-**Official Releases**: https://aur.archlinux.org/packages/gtk-theme-arc/  
+**Official Releases**: https://aur.MaterialArchlinux.org/packages/gtk-theme-MaterialArc/  
 
-**Development Releases**: https://aur.archlinux.org/packages/gtk-theme-arc-git/  
+**Development Releases**: https://aur.MaterialArchlinux.org/packages/gtk-theme-MaterialArc-git/  
 
 **Note:** If you're having trouble with the AUR packages please email the package maintainer at zach@zach-adams.com before creating an issue.
 
@@ -87,7 +87,7 @@ Install the theme with the following commands
 
 If you want to install the latest version from git, clone the repository with
 
-    git clone https://github.com/horst3180/arc-theme --depth 1 && cd arc-theme
+    git clone https://github.com/horst3180/MaterialArc-theme --depth 1 && cd MaterialArc-theme
 
 **2. Build and install the theme**
 
@@ -97,9 +97,9 @@ If you want to install the latest version from git, clone the repository with
 Other options to pass to autogen.sh are
 
     --disable-transparency     disable transparency in the GTK3 theme
-    --disable-light            disable Arc Light support
-    --disable-darker           disable Arc Darker support
-    --disable-dark             disable Arc Dark support
+    --disable-light            disable MaterialArc Light support
+    --disable-darker           disable MaterialArc Darker support
+    --disable-dark             disable MaterialArc Dark support
     --disable-cinnamon         disable Cinnamon support
     --disable-gnome-shell      disable GNOME Shell support
     --disable-gtk2             disable GTK2 support
@@ -113,7 +113,7 @@ Other options to pass to autogen.sh are
                                Note: Normally the correct version is detected automatically and this
                                option should not be needed.
 
-After the installation is complete you can activate the theme with `gnome-tweak-tool` or a similar program by selecting `Arc`, `Arc-Darker` or `Arc-Dark` as Window/GTK+ theme and `Arc` or `Arc-Dark` as Gnome-Shell and Xfce-Notify theme.
+After the installation is complete you can activate the theme with `gnome-tweak-tool` or a similar program by selecting `MaterialArc`, `MaterialArc-Darker` or `MaterialArc-Dark` as Window/GTK+ theme and `MaterialArc` or `MaterialArc-Dark` as Gnome-Shell and Xfce-Notify theme.
 
 **Uninstall the theme**
 
@@ -123,19 +123,19 @@ Run
 
 from the same directory as this README resides in, or
 
-    sudo rm -rf /usr/share/themes/{Arc,Arc-Darker,Arc-Dark}
+    sudo rm -rf /usr/share/themes/{MaterialArc,MaterialArc-Darker,MaterialArc-Dark}
 
 ### Extras
 
-#### Arc Firefox theme
-A theme for Firefox is available at https://github.com/horst3180/arc-firefox-theme
+#### MaterialArc Firefox theme
+A theme for Firefox is available at https://github.com/horst3180/MaterialArc-firefox-theme
 
 #### Chrome/Chromium theme
-To install the Chrome/Chromium theme go to the `extra/Chrome` folder and drag and drop the arc-theme.crx or arc-dark-theme.crx file into the Chrome/Chromium window. The source of the Chrome themes is located in the source "Chrome/arc-theme" folder.
+To install the Chrome/Chromium theme go to the `extra/Chrome` folder and drag and drop the MaterialArc-theme.crx or MaterialArc-dark-theme.crx file into the Chrome/Chromium window. The source of the Chrome themes is located in the source "Chrome/MaterialArc-theme" folder.
 
 #### Plank theme
-To install the Plank theme, copy the `extra/Arc-Plank` folder to `~/.local/share/plank/themes` or to `/usr/share/plank/themes` for system-wide use.
-Now open the Plank preferences window by executing `plank --preferences` from a terminal and select `Arc-Plank` as the theme.
+To install the Plank theme, copy the `extra/MaterialArc-Plank` folder to `~/.local/share/plank/themes` or to `/usr/share/plank/themes` for system-wide use.
+Now open the Plank preferences window by executing `plank --preferences` from a terminal and select `MaterialArc-Plank` as the theme.
 
 ### Troubleshooting
 
@@ -150,8 +150,8 @@ If you get artifacts like black or invisible backgrounds under Unity, disable ov
 
 
 ### Bug reporting
-If you find a bug, please report it at https://github.com/horst3180/arc-theme/issues
+If you find a bug, please report it at https://github.com/horst3180/MaterialArc-theme/issues
 
 ### Full Preview
-![A full screenshot of the Arc theme](http://i.imgur.com/tD1OBQ3.png)
+![A full screenshot of the MaterialArc theme](http://i.imgur.com/tD1OBQ3.png)
 <sub>Screenshot Details: Icons: unreleased | Launcher Icons based on [White Pixel Icons](http://darkdawg.deviantart.com/art/White-Pixel-Icons-252310560) | [Wallpaper](https://pixabay.com/photo-869593/) | Font: Futura Bk bt</sub>
